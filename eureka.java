@@ -6,5 +6,8 @@ public class eureka {
         Scanner leer=new Scanner(System.in);
         System.out.println("Digite su palabra:");
         String frase=leer.nextLine();
+        if (frase.equals("eureka")) {
+            System.out.println("es correcto");
+        }
     }
 }
