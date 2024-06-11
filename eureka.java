@@ -8,6 +8,8 @@ public class eureka {
         String frase=leer.nextLine();
         if (frase.equals("eureka")) {
             System.out.println("es correcto");
+        }else{
+            System.out.println("clave incorrecta");
         }
     }
 }
